@@ -1,0 +1,12 @@
+baseURL = "https://blog.minkedup.xyz"
+languageCode = "en-us"
+title = "Mickey's Blog"
+enableEmoji = true
+
+disableKinds = ["rss", "sitemap", "taxonomy", "term"]
+
+[sitemap]
+  disable = true
+
+[minify]
+  minifyOutput = true
