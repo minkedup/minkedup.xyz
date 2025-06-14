@@ -7,7 +7,7 @@
   </p>
 </header>
 
-{{ range (.Site.GetPage "post").Pages | first 6 }} {{ partial "preview.html" .
+{{ range (.Site.GetPage "posts").Pages | first 6 }} {{ partial "preview.html" .
 }} {{ end }}
 
 <p class="see-all-posts">
