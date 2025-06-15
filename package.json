@@ -4,5 +4,8 @@
   "description": "Mickey's Blog",
   "author": "Mickey P <me@minkedup.xyz>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@picocss/pico": "2.1.1"
+  }
 }
