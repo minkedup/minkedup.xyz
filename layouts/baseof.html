@@ -1,16 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.min.css"
-      integrity="sha384-L1dWfspMTHU/ApYnFiMz2QID/PlP1xCW9visvBdbEkOLkSSWsP6ZJWhPw6apiXxU"
-      crossorigin="anonymous"
-    />
 
-    {{ if eq .Title .Site.Title }}
+    {{ with resources.Get "css/pico.min.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ end }} {{ if eq .Title .Site.Title }}
     <title>{{ .Site.Title }}</title>
     {{ else }}
     <title>{{ .Title }} · {{ .Site.Title }}</title>
