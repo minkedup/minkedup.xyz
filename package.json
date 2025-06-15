@@ -1,0 +1,8 @@
+{
+  "name": "blog.minkedup.xyz",
+  "version": "0.0.0",
+  "description": "Mickey's Blog",
+  "author": "Mickey P <me@minkedup.xyz>",
+  "license": "MIT",
+  "private": true
+}
