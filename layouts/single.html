@@ -1,11 +1,10 @@
 {{ define "main" }}
 <header>
-  <h1>{{ .Title }}</h1>
-  <p class="date">{{ .Date.Format "2 January 2006" }}</p>
+  <hgroup>
+    <h1>{{ .Title }}</h1>
+    <p class="date">{{ .Date.Format "2 January 2006" }}</p>
+  </hgroup>
 </header>
 
-<div class="markdown">
-  {{ .Page.Content }}
-</div>
+<div class="markdown">{{ .Page.Content }}</div>
 {{ end }}
-

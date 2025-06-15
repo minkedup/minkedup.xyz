@@ -11,7 +11,7 @@
   </nav>
 </header>
 
-<h3>Recent Posts</h3>
+<h3>All Posts</h3>
 
-{{ range (.Site.GetPage "posts").Pages | first 6 }} {{ partial "preview.html" .
-}} {{ end }} {{ end }}
+{{ range (.Site.GetPage "posts").Pages }} {{ partial "preview.html" . }} {{ end
+}} {{ end }}

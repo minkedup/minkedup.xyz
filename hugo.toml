@@ -10,3 +10,10 @@ disableKinds = ["rss", "sitemap", "taxonomy", "term"]
 
 [minify]
   minifyOutput = true
+
+
+[frontmatter]
+date = [":filename"]
+
+[permalinks]
+blog = "/blog/:year/:month/:day/:slug/"
