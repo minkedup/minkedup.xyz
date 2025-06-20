@@ -1,14 +1,6 @@
 {{ define "main" }}
 <header>
-  <nav>
-    <ul>
-      <li><strong>Mickey's Blog</strong></li>
-    </ul>
-    <ul>
-      <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-      <li><a href="{{ .Site.BaseURL }}/posts">All Posts</a></li>
-    </ul>
-  </nav>
+  {{ partial "header" }}
 </header>
 
 <h3>Recent Posts</h3>
