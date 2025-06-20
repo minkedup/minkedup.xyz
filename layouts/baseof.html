@@ -3,7 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Mickey's Personal Blog" />
+    <meta name="description" content="Mickey's Webpage" />
+
+    <meta property="og:title" content="Mickey's Webpage" />
+    <meta property="og:description" content="Mickey's Webpage" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://minkedup.xyz" />
 
     {{ with resources.Get "css/pico.min.css" | resources.Minify }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" />
