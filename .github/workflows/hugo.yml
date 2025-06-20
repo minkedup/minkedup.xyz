@@ -36,11 +36,12 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Yarn dependencies
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '14'
-          cache: 'yarn'
+          node-version: "14"
+          cache: "yarn"
+      - name: Install Yarn Depdencies
         run: yarn install --frozen-lockfile
       - name: Build with Hugo
         env:
