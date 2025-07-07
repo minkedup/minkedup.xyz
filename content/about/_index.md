@@ -2,9 +2,9 @@
 title: About Me
 ---
 
-I'm a hobbyist programmer and Software Engineering student going into my senior
-year next spring semester (spring '25). I attend college at the [Rochester
-Institute of Technology](https://rit.edu).
+I'm a hobbyist programmer and Software Engineering student at the [Rochester
+Institute of Technology](https://rit.edu). I plan on graduating with a degree in
+Software Engeering at the end of this upcoming Fall semester (Fall '25).
 
 I recently completed a Co-Op at [More Vang](https://morevang.com/) working as a
 Programmer in Alexendria, VA.
