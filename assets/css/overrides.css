@@ -1,0 +1,30 @@
+@media (min-width: 576px) {
+  .goat {
+    max-width: 55%;
+  }
+}
+@media (min-width: 768px) {
+  .goat {
+    max-width: 48.75%;
+  }
+}
+@media (min-width: 1024px) {
+  .goat {
+    max-width: 42.5%;
+  }
+}
+@media (min-width: 1280px) {
+  .goat {
+    max-width: 36.25%;
+  }
+}
+@media (min-width: 1536px) {
+  .goat {
+    max-width: 30%;
+  }
+}
+
+.goat {
+  margin-left: auto;
+  margin-right: auto;
+}
