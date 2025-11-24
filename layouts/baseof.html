@@ -12,7 +12,11 @@
 
     {{ with resources.Get "css/pico.min.css" | resources.Minify }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" />
-    {{ end }} {{ if eq .Title .Site.Title }}
+    {{ end }}
+    {{ with resources.Get "css/overrides.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ end }}
+    {{ if eq .Title .Site.Title }}
     <title>{{ .Site.Title }}</title>
     {{ else }}
     <title>{{ .Title }} · {{ .Site.Title }}</title>
