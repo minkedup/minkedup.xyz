@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Mickey's Blog"
 enableEmoji = true
 
+ignoreFiles = ["data/.*\\.json"]
 disableKinds = ["rss", "sitemap", "taxonomy", "term"]
 
 [sitemap]
