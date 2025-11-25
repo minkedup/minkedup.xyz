@@ -1,26 +1,41 @@
 @media (min-width: 576px) {
-  .goat {
+  .large-fig {
     max-width: 55%;
+  }
+  .small-fig {
+    max-width: 43%;
   }
 }
 @media (min-width: 768px) {
-  .goat {
+  .large-fig {
     max-width: 48.75%;
+  }
+  .small-fig {
+    max-width: 36.75%;
   }
 }
 @media (min-width: 1024px) {
-  .goat {
+  .large-fig {
     max-width: 42.5%;
+  }
+  .small-fig {
+    max-width: 30.5%;
   }
 }
 @media (min-width: 1280px) {
-  .goat {
+  .large-fig {
     max-width: 36.25%;
+  }
+  .small-fig {
+    max-width: 24.25%;
   }
 }
 @media (min-width: 1536px) {
-  .goat {
+  .large-fig {
     max-width: 30%;
+  }
+  .small-fig {
+    max-width: 18%;
   }
 }
 
