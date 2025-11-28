@@ -43,3 +43,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.arrow-offset {
+  padding-right: 0.80%;
+}
+
+blockquote > p {
+  margin-bottom: 0;
+}
